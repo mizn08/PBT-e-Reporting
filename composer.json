@@ -1,4 +1,7 @@
 {
+    "name": "mizn08/pbt-e-reporting",
+    "description": "PBT e-Reporting System - Final Year Project",
+    "type": "project",
     "require": {
         "gemini-api-php/client": "^1.4",
         "symfony/http-client": "^7.0",
