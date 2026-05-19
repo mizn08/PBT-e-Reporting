@@ -1,0 +1,175 @@
+/* Reset some default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f0f8f8;
+    margin: 0;
+}
+
+/* Navigation styling */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 10%;
+    background-color: #1c6e79;
+    color: white;
+}
+
+.nav-logo img {
+    height: 100px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    background-color: #144f57;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0e3b42;
+}
+
+/* Header styling */
+header.container {
+    display: flex;
+    align-items: center;
+    padding: 40px 10%;
+    gap: 20px;
+}
+
+.content {
+    flex: 1;
+}
+
+.content h4 {
+    color: #1c6e79;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.content h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.content h1 span {
+    color: #1c6e79;
+}
+
+.content p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 10px;
+    max-width: 600px;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.blur {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background: #1c6e79;
+    opacity: 0.5;
+    border-radius: 50%;
+    filter: blur(40px);
+}
+
+/* Section styling */
+section.container {
+    padding: 40px 10%;
+    text-align: center;
+}
+
+.features {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 45%;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h4 {
+    color: #1c6e79;
+    margin: 10px 0;
+}
+
+.card p {
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 15px 0;
+}
+
+.btn-submit {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    background-color: #1c6e79;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn-submit:hover {
+    background-color: #144f57;
+}
+
+/* Footer styling */
+.copyright {
+    text-align: center;
+    padding: 20px 10%;
+    font-size: 14px;
+    color: #666;
+    background-color: #1c6e79;
+    color: white;
+}

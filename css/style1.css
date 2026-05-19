@@ -1,0 +1,100 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    padding: 20px;
+    margin: 0 auto;
+    width: 80%; /* 100% - 10% left margin - 10% right margin */
+    max-width: 1200px;
+}
+
+/* Page header */
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Table styling */
+table {
+    width: 100%; /* Adjust width to make the table smaller */
+    margin: 0 auto; /* Center the table */
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+h5 {
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #333;
+}
+
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #1c6e79;
+    color: white;
+    text-align: left;
+}
+
+td {
+    text-align: left;
+    background-color: #8cc7ce;
+}
+
+/* Button styling */
+button {
+    background-color: #1c6e79;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Form styling */
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Image styling */
+img {
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+/* Flexbox for image arrangement */
+td div {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+/* Center-align the feedback submission button */
+table td[colspan="2"] {
+    text-align: center;
+}
+
+/* Page container */
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}

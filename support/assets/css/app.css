@@ -1,0 +1,18 @@
+.admn_ul a{
+    padding: 10px;
+    border-right: 1px solid #eee;
+}
+.bg-gray{
+    background: #ddd;
+}
+.reply-area{
+    max-height: 600px;
+    overflow-y: scroll;
+}
+.reply-area ul{
+    padding-left: 0px;
+    list-style: none;
+}
+.reply-area ul li{
+    margin-top: 10px;
+}
